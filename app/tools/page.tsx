@@ -18,6 +18,14 @@ export default function ToolsPage() {
             Temperature Converter
           </Link>
         </li>
+        <li>
+          <Link
+            href="/tools/dateconverter"
+            className="text-blue-600 hover:underline"
+          >
+            Date Converter
+          </Link>
+        </li>
       </ul>
     </div>
   );
