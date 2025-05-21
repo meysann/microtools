@@ -26,6 +26,22 @@ export default function ToolsPage() {
             Date Converter
           </Link>
         </li>
+        <li>
+          <Link
+            href="/tools/timezone"
+            className="text-blue-600 hover:underline"
+          >
+            Timezone Converter
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/tools/wordcounter"
+            className="text-blue-600 hover:underline"
+          >
+            Word Counter
+          </Link>
+        </li>
       </ul>
     </div>
   );
