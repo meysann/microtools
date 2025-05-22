@@ -50,6 +50,14 @@ export default function ToolsPage() {
             Generate secure random passwords.
           </Link>
         </li>
+        <li>
+          <Link
+            href="/tools/agecalculator"
+            className="text-blue-600 hover:underline"
+          >
+            Generate your age.
+          </Link>
+        </li>
       </ul>
     </div>
   );

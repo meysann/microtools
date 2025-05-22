@@ -69,6 +69,9 @@ export default function RootLayout({
             <Link href="/tools/password-generator" className="hover:underline">
               Password Generator
             </Link>
+            <Link href="/tools/agecalculator" className="hover:underline">
+              Age
+            </Link>
           </nav>
         </header>
         <main className="p-4 max-w-xl mx-auto">{children}</main>
