@@ -42,6 +42,14 @@ export default function ToolsPage() {
             Word Counter
           </Link>
         </li>
+        <li>
+          <Link
+            href="/tools/password-generator"
+            className="text-blue-600 hover:underline"
+          >
+            Generate secure random passwords.
+          </Link>
+        </li>
       </ul>
     </div>
   );

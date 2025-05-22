@@ -66,6 +66,9 @@ export default function RootLayout({
             >
               Word Count
             </Link>
+            <Link href="/tools/password-generator" className="hover:underline">
+              Password Generator
+            </Link>
           </nav>
         </header>
         <main className="p-4 max-w-xl mx-auto">{children}</main>
